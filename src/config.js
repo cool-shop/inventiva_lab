@@ -17,13 +17,13 @@ export const GOOGLE_DRIVE_CONFIG = {
             id: 'https://drive.google.com/drive/u/3/folders/1l2EFWoBgRXkaLxfoIpmWmbfOgkoZN1PH',
             name: 'Prendas',
             icon: 'Clothes',
-            image: 'https://lh3.googleusercontent.com/u/0/d/1RuF_5aG4mCYmrbb7ibP72MdZATo1y8bo=s400'
+            image: 'https://lh3.googleusercontent.com/u/0/d/1l6uKvbQgR2pz9X2Tz7DXHQ-oAq0djeRJ=s400'
         },
         {
             id: 'https://drive.google.com/drive/folders/1oTwWiIX9PwdaYwMM4jRF5DX1PxXbQRjY',
             name: 'Novedades',
             icon: 'Sparkles',
-            image: 'https://lh3.googleusercontent.com/u/0/d/1DC_RgKcMVyrABmXl-rfRI9wtIEV4Geg-=s400'
+            image: 'https://lh3.googleusercontent.com/u/0/d/1Z0hD4C3MeHB_TotnSNOsS7VUzeQWavg6=s400'
         },
         {
             id: 'https://drive.google.com/drive/folders/1b8YPoDIsFPYK_DQV20yYrgB_A8LePKDP',
@@ -41,7 +41,7 @@ export const CONTACT_CONFIG = {
 };
 
 export const BANNER_CONFIG = {
-    HERO_IMAGE: 'https://lh3.googleusercontent.com/u/0/d/1DC_RgKcMVyrABmXl-rfRI9wtIEV4Geg-=s1000'
+    HERO_IMAGE: 'https://lh3.googleusercontent.com/u/0/d/1hfDSDIQGiHyRMjW6AJuq1ADHApUUHAgJ'
 };
 
 export const APP_CONFIG = {
