@@ -45,6 +45,6 @@ export const BANNER_CONFIG = {
 };
 
 export const APP_CONFIG = {
-    LOGO: '/inventiva_logo.svg',
-    LOGO_SM: '/inventiva_logo_sm.svg'
+    LOGO: `${import.meta.env.BASE_URL}inventiva_logo.svg`,
+    LOGO_SM: `${import.meta.env.BASE_URL}inventiva_logo_sm.svg`
 };
