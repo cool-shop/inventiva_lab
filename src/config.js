@@ -1,5 +1,5 @@
 export const GOOGLE_DRIVE_CONFIG = {
-    API_KEY: import.meta.env.GOOGLE_DRIVE_API_KEY || 'YOUR_GOOGLE_DRIVE_API_KEY',
+    API_KEY: import.meta.env.VITE_GOOGLE_DRIVE_API_KEY || 'YOUR_GOOGLE_DRIVE_API_KEY',
     FOLDERS: [
         {
             id: 'all',
@@ -35,11 +35,16 @@ export const GOOGLE_DRIVE_CONFIG = {
 };
 
 export const CONTACT_CONFIG = {
-    WHATSAPP: import.meta.env.WHATSAPP_NUMBER || '521234567890',
-    FACEBOOK_PAGE: import.meta.env.FACEBOOK_PAGE || 'your.page.username', // Can be numeric ID or username
-    MESSAGE: import.meta.env.WHATSAPP_MESSAGE || 'Hola, me interesa este producto del catálogo: '
+    WHATSAPP: import.meta.env.VITE_WHATSAPP_NUMBER || '521234567890',
+    FACEBOOK_PAGE: import.meta.env.VITE_FACEBOOK_PAGE || 'your.page.username', // Can be numeric ID or username
+    MESSAGE: import.meta.env.VITE_WHATSAPP_MESSAGE || 'Hola, me interesa este producto del catálogo: '
 };
 
 export const BANNER_CONFIG = {
     HERO_IMAGE: 'https://lh3.googleusercontent.com/u/0/d/1DC_RgKcMVyrABmXl-rfRI9wtIEV4Geg-=s1000'
+};
+
+export const APP_CONFIG = {
+    LOGO: '/inventiva_logo.svg',
+    LOGO_SM: '/inventiva_logo_sm.svg'
 };

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Home, Search, ShoppingBag, User, Clock } from 'lucide-react';
+import { APP_CONFIG } from '../config';
 
 const BottomNav = ({ isHidden, onHomeClick, onBrandClick, onSearchClick, onRecentClick, onProfileClick }) => {
     return (
@@ -28,7 +29,7 @@ const BottomNav = ({ isHidden, onHomeClick, onBrandClick, onSearchClick, onRecen
                     className=""
                 >
                     {/* <ShoppingBag size={32} /> */}
-                    <img src="/inventiva_logo_sm.svg" alt="Inventiva" className="w-24 h-24 sm:w-24 sm:h-24 rounded-full shadow-2xl shadow-cat-orange/40 -mt-20 text-white cursor-pointer hover:rotate-12 hover:scale-110 active:scale-90 transition-all font-black" />
+                    <img src={APP_CONFIG.LOGO_SM} alt="Inventiva" className="w-24 h-24 sm:w-24 sm:h-24 rounded-full shadow-2xl shadow-cat-orange/40 -mt-20 text-white cursor-pointer hover:rotate-12 hover:scale-110 active:scale-90 transition-all font-black" />
                 </div>
                 <button
                     onClick={onRecentClick}

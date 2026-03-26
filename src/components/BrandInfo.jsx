@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ChevronLeft, ShoppingBag, Heart, Target, Star, Instagram, Facebook } from 'lucide-react';
+import { APP_CONFIG } from '../config';
 
 const BrandInfo = ({ onClose }) => {
     return (
@@ -31,7 +32,7 @@ const BrandInfo = ({ onClose }) => {
                 <div className="relative rounded-[3rem] overflow-hidden bg-cat-orange/5 p-12 mb-16 text-center">
                     <div className="relative z-10">
                         <div className="">
-                            <img src="/inventiva_logo.svg" alt="Inventiva" className="sm:w-48 sm:h-48 w-48 h-48 rounded-[8rem] flex items-center justify-center text-white shadow-2xl shadow-cat-brown/50 mx-auto mb-8 transform" />
+                            <img src={APP_CONFIG.LOGO} alt="Inventiva" className="sm:w-48 sm:h-48 w-48 h-48 rounded-[8rem] flex items-center justify-center text-white shadow-2xl shadow-cat-brown/50 mx-auto mb-8 transform" />
                         </div>
                         <h1 className="text-4xl sm:text-6xl font-black text-cat-brown mb-6 tracking-tighter uppercase">Pasión por lo <br />Personalizado</h1>
                         <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed font-medium">
