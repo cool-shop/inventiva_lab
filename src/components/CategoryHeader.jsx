@@ -1,15 +1,15 @@
 import { motion } from 'framer-motion';
-import { ShoppingBag } from 'lucide-react';
 import { APP_CONFIG } from '../config';
 
 const CategoryHeader = ({ user, onBrandClick }) => {
     return (
-        <div className="px-6 pt-12 pb-6 flex justify-between items-center sm:px-12">
+        <div className="px-6 pt-12 pb-6 mb-6 flex justify-between items-center sm:px-12">
             <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }}>
-                <h2 className="text-2xl font-black text-cat-brown sm:text-4xl uppercase tracking-tighter">
+                <img src={APP_CONFIG.LOGO_NOMBRE} alt="Inventiva" className="w-64 h-16 sm:w-64 sm:h-16" />
+                {/* <h2 className="text-2xl font-black text-cat-brown sm:text-4xl uppercase tracking-tighter">
                     Hola {user ? user.given_name : ''}👋
                 </h2>
-                <p className="text-slate-500 text-xs sm:text-lg font-medium opacity-70">Explora nuestro catálogo exclusivo</p>
+                <p className="text-slate-500 text-xs sm:text-lg font-medium opacity-70">Explora nuestro catálogo exclusivo</p> */}
             </motion.div>
 
             <motion.div
