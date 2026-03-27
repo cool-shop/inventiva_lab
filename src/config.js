@@ -5,7 +5,7 @@ export const GOOGLE_DRIVE_CONFIG = {
             id: 'all',
             name: 'Todos',
             icon: 'LayoutGrid',
-            image: 'https://lh3.googleusercontent.com/u/0/d/1DC_RgKcMVyrABmXl-rfRI9wtIEV4Geg-=s400'
+            image: 'https://lh3.googleusercontent.com/u/0/d/1N4AFV7Up38yJmkVNuqqRKg9hM1rbDlfA=s400'
         },
         {
             id: 'https://drive.google.com/drive/u/3/folders/1JygqlI33WYg7DXXPsR72yZayu8AABtH_',
@@ -29,7 +29,7 @@ export const GOOGLE_DRIVE_CONFIG = {
             id: 'https://drive.google.com/drive/folders/1b8YPoDIsFPYK_DQV20yYrgB_A8LePKDP',
             name: 'Llaveros',
             icon: 'Key',
-            image: 'https://lh3.googleusercontent.com/u/0/d/1DC_RgKcMVyrABmXl-rfRI9wtIEV4Geg-=s400'
+            image: 'https://lh3.googleusercontent.com/u/0/d/1JOfM__pIHcUfJbgPdK23Pzu7m9J33yPT=s400'
         },
     ]
 };
