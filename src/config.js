@@ -4,7 +4,7 @@ export const APP_CONFIG = {
     META_TITLE: 'Inventiva Lab - Catálogo Exclusivo',
     META_DESCRIPTION: 'Productos personalizados y papelería creativa.',
     LOGO: `${import.meta.env.BASE_URL}inventiva_logo.svg`,
-    LOGO_SM: `${import.meta.env.BASE_URL}inventiva_logo_sm_blank.svg`,
+    LOGO_SM: `${import.meta.env.BASE_URL}inventiva_logo.svg`,
     LOGO_NOMBRE: `${import.meta.env.BASE_URL}inventiva_lab_nombre.svg`,
     LOGO_SIMPLE: `${import.meta.env.BASE_URL}inventiva_logo.svg`,
     LOGO_ROTO: `${import.meta.env.BASE_URL}espada_rota.svg`,
