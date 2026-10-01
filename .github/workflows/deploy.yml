@@ -31,13 +31,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
       - name: Build
         run: npm run build
         env:
@@ -45,6 +47,7 @@ jobs:
           VITE_GOOGLE_DRIVE_API_KEY: ${{ secrets.VITE_GOOGLE_DRIVE_API_KEY }}
           VITE_WHATSAPP_NUMBER: ${{ secrets.VITE_WHATSAPP_NUMBER }}
           VITE_FACEBOOK_PAGE: ${{ secrets.VITE_FACEBOOK_PAGE }}
+          VITE_INSTAGRAM_PAGE: ${{ secrets.VITE_INSTAGRAM_PAGE }}
           VITE_WHATSAPP_MESSAGE: ${{ secrets.VITE_WHATSAPP_MESSAGE }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
