@@ -13,10 +13,10 @@ export const APP_CONFIG = {
 
 export const THEME_CONFIG = {
     colors: {
-        darkest: '#957777',
+        darkest: '#fff3e4',
         dark: '#eed6c4',
-        contrast: '#483434',
-        light: '#fff3e4',
+        contrast: '#987373',
+        light: '#8D6868',
         contrastLight: '#eed6c4',
     }
 };

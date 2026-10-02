@@ -1,7 +1,7 @@
 /* Carga y declaración de fuentes */
 @font-face {
     font-family: 'gothic_font';
-    src: url('/public/fonts/GermaniaOne-Regular.ttf') format('truetype');
+    src: url('/fonts/GermaniaOne-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('/public/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
